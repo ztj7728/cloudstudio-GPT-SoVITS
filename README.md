@@ -25,6 +25,9 @@ custom_channels:
   pytorch: https://mirrors.sustech.edu.cn/anaconda/cloud
   nvidia: https://mirrors.cernet.edu.cn/anaconda-extra/cloud
 ```
+
+conda clean -i
+
 # 更新conda
 conda install -n base -c conda-forge conda=25.3.1
 
