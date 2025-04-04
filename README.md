@@ -48,7 +48,7 @@ rm -r pretrained_models #删除原目录
 git clone https://hf-mirror.com/lj1995/GPT-SoVITS
 mv GPT-SoVITS pretrained_models #修改GPT-SoVITS目录名为大模型目录命
 
-#返回项目运行webui或者api
+# 返回项目运行webui或者api
 cd /workspace/GPT-SoVITS
 python webui.py
 
