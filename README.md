@@ -5,6 +5,7 @@
 # 安装git-lfs
 
 apt update
+
 apt install git-lfs
 
 # 使用conda境内加速源（https://help.mirrors.cernet.edu.cn/anaconda/）
