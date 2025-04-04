@@ -11,7 +11,7 @@ apt install git-lfs
 vi ~/.condarc
 
 #替换为以下信息
-`
+```
 channels:
   - defaults
 show_channel_urls: true
@@ -23,7 +23,7 @@ custom_channels:
   conda-forge: https://mirrors.sustech.edu.cn/anaconda/cloud
   pytorch: https://mirrors.sustech.edu.cn/anaconda/cloud
   nvidia: https://mirrors.cernet.edu.cn/anaconda-extra/cloud
-`
+```
 # 更新conda
 conda install -n base -c conda-forge conda=25.3.1
 
