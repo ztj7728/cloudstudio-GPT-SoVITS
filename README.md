@@ -45,6 +45,7 @@ bash install.sh
 # 拉取大模型
 cd GPT-SoVITS
 rm -r pretrained_models #删除原目录
+
 git clone https://hf-mirror.com/lj1995/GPT-SoVITS
 mv GPT-SoVITS pretrained_models #修改GPT-SoVITS目录名为大模型目录命
 
